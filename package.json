@@ -1,0 +1,22 @@
+{
+  "name": "merge-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha test/*.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/merge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.5.4",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.1.6"
+  }
+}
